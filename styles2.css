@@ -1,0 +1,28 @@
+table {
+    width: 400px;
+    height: 50px;
+    border-collapse: collapse;
+    box-shadow: 50px 10px 20px #000000;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ffc0cb;
+}
+h1{
+  background-color: #ffff00;
+  color:#ff9966
+}
+th {
+    background-color:#9acd32;
+}
+tr:nth-child(even) {
+    background-color: #adff2f;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.gradient {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color:#ffff00;
+}

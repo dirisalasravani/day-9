@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .timetable {
+    width: 100%;
+    max-width: 600px;
+    margin: 2px auto;
+    padding: 20px;
+    background-color: #9acd32;
+    border-radius: 10px;
+    box-shadow: 15px 20px 15px #000000;
+  }
+  
+  .timetable-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .timetable-content {
+    padding: 20px;
+  }
+  
+  .timetable-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .time {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .activity {
+    flex: 3;
+  }
